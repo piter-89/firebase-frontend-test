@@ -1,24 +1,3 @@
-# sf-front-end-cli-3
+VUE CLI front-end project integrated with Firebase: https://only-test-be063.firebaseapp.com/
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Connected to backend from repo: https://github.com/piotr-elmanowski/basic-api-ts-express-firebase deployed on Heroku: https://basic-api-ts-express-firebase.herokuapp.com/
