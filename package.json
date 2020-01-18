@@ -1,0 +1,37 @@
+{
+  "name": "sf-front-end-cli-3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-no-clean": "vue-cli-service build --no-clean",
+    "inspect": "vue-cli-service inspect > output2.js",
+    "lint": "vue-cli-service lint",
+    "copy-firebase": "copyfiles -u 1 dist-local/**/* dist-firebase/public",
+    "build-firebase": "npm run build && npm run copy-firebase"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.2.2",
+    "core-js": "^3.4.4",
+    "firebase": "^7.7.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-typescript": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "axios": "^0.19.1",
+    "copyfiles": "^2.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "typescript": "^3.7.4",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
